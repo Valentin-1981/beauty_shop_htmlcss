@@ -99,3 +99,29 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+.rectangle_two {
+    width: 1920px;
+    height: 1116px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1500px;
+    height: 600px;
+    display: flex;
+    /* column-gap: 120px; */
+}
+
+.devushka {
+    width: 400px;
+    height: 600px;
+}
+
+.foto_1,
+.foto_2 {
+    margin-right: 120px;
+}
