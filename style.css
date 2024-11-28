@@ -125,3 +125,30 @@
 .foto_2 {
     margin-right: 120px;
 }
+
+.costume {
+    display: block;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.price {
+    display: block;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.zvezda {
+    width: 39px;
+    height: 39px;
+    margin-top: 5px;
+}
+
+.text_1 {
+    display: flex;
+    justify-content: space-between;
+}
