@@ -67,13 +67,15 @@
 
 .carusel_footer {
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     /* height: 120%; */
-    height: 1065px;
+    /* height: 1065px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     row-gap: 15px;
+    top: 985px;
+    left: 920px;
 }
 
 .logo_1 {
@@ -110,7 +112,8 @@
 }
 
 .container {
-    width: 1500px;
+    /* width: 1500px; */
+    width: 1441px;
     height: 600px;
     display: flex;
     /* column-gap: 120px; */
@@ -190,4 +193,36 @@
     left: 107px;
     display: flex;
     justify-content: space-between;
+}
+
+.woman_in_a_coat > img {
+    width: 810px;
+    height: 1080px;
+}
+
+.posing_woman_card {
+    display: flex;
+    align-items: center;
+}
+
+.standing_woman {
+    width: 400px;
+    height: 600px;
+}
+
+.rectangle_four {
+    display: flex;
+    width: 1920px;
+}
+
+.foto_1.dope {
+    margin-right: 0px;
+}
+
+.card_center {
+    display: flex;
+    align-items: center;
+    /* width: 40%; */
+    width: 1107px;
+    justify-content: center;
 }
