@@ -328,6 +328,84 @@
     margin-top: 35px;
 }
 
-.telegram, .VK, .instagram {
-    padding-right:8px;
+.telegram,
+.VK,
+.instagram {
+    padding-right: 8px;
+}
+
+.information {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    color: #ffffff;
+}
+
+.about,
+.public_oferta,
+.politica,
+.cookies {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.one_lower,
+.two_lower,
+.three_lower {
+    width: 33%;
+}
+
+.anons {
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rights {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #777575;
+}
+
+.left_bar {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.lower {
+    display: flex;
+}
+
+.two_lower {
+    display: flex;
+    justify-content: center;
+}
+
+.label_csg {
+    width: 40px;
+    margin-top: 60px;
+    width: 110px;
+}
+
+.three_lower {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.arrow {
+    height: 34px;
+    /* display: flex; */
+    margin-right: 90px;
+    margin-top: 45px;
 }
