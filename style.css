@@ -409,3 +409,20 @@
     margin-right: 90px;
     margin-top: 45px;
 }
+
+.drop_down {
+    width: 500px;
+    height: 1068px;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.cross {
+    /* position: relative;
+    top: 92px;
+    left: 77px; */
+    /* position: relative; */
+    margin-top: 92px;
+    margin-left: 77px;
+    display: block;
+}
