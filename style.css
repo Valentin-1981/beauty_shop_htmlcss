@@ -507,7 +507,7 @@
     color: #777575;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 325px) {
     .rectangle_one {
         width: 321px;
         height: 185px;
@@ -539,8 +539,8 @@
     }
 
     .upper_right {
-        width: 92px;
-        margin-right: 10px;
+        width: 80px;
+        margin-right: 3px;
         height: 22px;
     }
 
@@ -551,5 +551,31 @@
     .upper_part {
         width: 321px;
         height: 181px;
+    }
+
+    .carusel {
+        /* top: 25px; */
+        left: 20px;
+        width: 292px;
+        /* height: 45px; */
+        /* top: 77px; */
+        height: 20px;
+        top: 90px;
+    }
+
+    .carusel > a > img {
+        height: 20px;
+    }
+
+    .logo_1,
+    .logo_2,
+    .logo_3 {
+        font-size: 10px;
+    }
+
+    .carusel_footer {
+        row-gap: 3px;
+        top: 148px;
+        left: 111px;
     }
 }
