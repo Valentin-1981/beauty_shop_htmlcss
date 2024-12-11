@@ -507,6 +507,10 @@
     color: #777575;
 }
 
+.carusel_2 {
+    display: none;
+}
+
 @media screen and (max-width: 325px) {
     .rectangle_one {
         width: 321px;
@@ -588,5 +592,56 @@
         row-gap: 3px;
         top: 610px;
         left: 111px;
+    }
+
+    .foto_2,
+    .foto_3 {
+        display: none;
+    }
+
+    .rectangle_two {
+        width: 321px;
+        height: 525px;
+    }
+
+    .container {
+        width: 321px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .foto_1 {
+        margin-right: 4px;
+    }
+
+    .devushka {
+        width: 265px;
+        height: auto;
+    }
+
+    .costume {
+        font-size: 12px;
+    }
+
+    .price {
+        font-size: 12px;
+    }
+
+    .zvezda {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carusel_2 {
+        display: block;
+        left: 20px;
+        width: 292px;
+        height: 20px;
+        top: 895px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
     }
 }
