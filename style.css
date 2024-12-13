@@ -687,6 +687,24 @@
     }
 
     .rectangle_four {
+        /* display: none; */
+    }
+
+    .woman_in_a_coat {
         display: none;
+    }
+
+    .rectangle_four {
+        width: 321px;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        display: flex;
+    }
+
+    .standing_woman {
+        width: 265px;
+        height: auto;
     }
 }
