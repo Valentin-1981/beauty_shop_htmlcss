@@ -172,7 +172,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     line-height: 58px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #ffffff;
 }
 
@@ -519,7 +519,7 @@
     }
 
     .upper_header {
-        width: 286px;
+        width: 280px;
 
         height: 22px;
         position: absolute;
@@ -643,5 +643,31 @@
         position: absolute;
         display: flex;
         justify-content: space-between;
+    }
+
+    .rectangle_three {
+        width: 320px;
+        height: auto;
+        display: flex;
+    }
+
+    .rectangle_three > img {
+        width: 321px;
+        height: auto;
+        content: url("exposition.jpeg");
+    }
+
+    .comment {
+        top: 1610px;
+        left: 20px;
+    }
+
+    .fashion_title_1 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .fashion_title_2 {
+        font-size: 8px;
     }
 }
