@@ -511,6 +511,10 @@
     display: none;
 }
 
+.three_one {
+    display: none;
+}
+
 @media screen and (max-width: 325px) {
     .rectangle_one {
         width: 321px;
@@ -669,5 +673,20 @@
 
     .fashion_title_2 {
         font-size: 8px;
+    }
+
+    .three_one {
+        display: flex;
+        width: 321px;
+        height: auto;
+    }
+
+    .three_one > img {
+        width: 320px;
+        height: auto;
+    }
+
+    .rectangle_four {
+        display: none;
     }
 }
