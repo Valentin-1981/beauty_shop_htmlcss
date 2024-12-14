@@ -4,5 +4,5 @@ $(".cross").on("click", function () {
 });
 
 $(".upper_header__img1").on("click", function () {
-    $(".drop_down").css("display", "block");
+    $(".drop_down").css("display", "flex");
 });

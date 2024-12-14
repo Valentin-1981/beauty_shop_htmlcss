@@ -416,6 +416,10 @@
     height: 1068px;
     background-color: #ffffff;
     position: absolute;
+
+    /* display: flex; */
+    flex-direction: column;
+    z-index: 5;
 }
 
 .cross {
@@ -810,5 +814,59 @@
 
     .arrow {
         margin-right: 30px;
+    }
+
+    .drop_down {
+        width: 310px;
+        height: 645px;
+    }
+
+    .logo_cross {
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .first_row > a.cross > img {
+        width: 15px;
+    }
+
+    .anons {
+        width: 85px;
+        margin-left: 12px;
+    }
+
+    .cross {
+        height: 18px;
+    }
+
+    .drop_down_menu > ul > li {
+        font-size: 10px;
+    }
+
+    .drop_down_menu > ul {
+        margin-top: 60px;
+    }
+
+    .first_button {
+        margin-top: 0px;
+    }
+
+    .first_button,
+    .second_button {
+        width: 256px;
+        font-size: 10px;
+        height: 28px;
+    }
+
+    .second_button {
+        margin-top: 10px;
+    }
+
+    .drop_down_menu {
+        height: 375px;
+    }
+
+    .drop_down_logo {
+        top: 118px;
     }
 }
