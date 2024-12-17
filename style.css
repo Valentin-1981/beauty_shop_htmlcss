@@ -819,7 +819,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     .arrow {
@@ -881,7 +881,7 @@
     }
 
     .footer_end {
-        width: 92%;
+        width: 95%;
     }
 
     .two_lower {
