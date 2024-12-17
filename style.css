@@ -519,6 +519,16 @@
     display: none;
 }
 
+.footer_end {
+    width: 66%;
+    display: flex;
+}
+
+.two_lower,
+.three_lower {
+    width: 50%;
+}
+
 @media screen and (max-width: 325px) {
     .rectangle_one {
         width: 321px;
@@ -869,4 +879,19 @@
     .drop_down_logo {
         top: 118px;
     }
+
+    .footer_end {
+        width: 92%;
+    }
+
+    .two_lower {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* .footer_end {
+        width: 92%;
+    } */
 }
+
+/* DOPOLNITELNO */
